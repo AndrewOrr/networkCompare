@@ -39,7 +39,7 @@ int main(){
 	}
 	cout << compare[1][1];
 
-	cout << "blah";
+	cout << "blahljalskdjflskjdflksdjf";
 
 	system("Pause");
 }
