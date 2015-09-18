@@ -1,15 +1,28 @@
-﻿Build started 8/31/2015 10:25:07 AM.
-     1>Project "C:\Users\Andrew\documents\visual studio 2013\Projects\NetworkCompare\NetworkCompare\NetworkCompare.vcxproj" on node 2 (Build target(s)).
+﻿Build started 9/11/2015 3:35:43 PM.
+     1>Project "D:\NetworkCompare\NetworkCompare\programFiles\NetworkCompare\NetworkCompare.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Network.cpp NetworkCompare.cpp Source.cpp
          Source.cpp
+         NetworkCompare.cpp
+         Network.cpp
+     1>d:\networkcompare\networkcompare\programfiles\networkcompare\network.cpp(16): warning C4101: 'network' : unreferenced local variable
+     1>d:\networkcompare\networkcompare\programfiles\networkcompare\network.cpp(22): warning C4101: 'cNet' : unreferenced local variable
+     1>d:\networkcompare\networkcompare\programfiles\networkcompare\network.cpp(211): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\networkcompare\networkcompare\programfiles\networkcompare\network.cpp(209): warning C4101: 'node1' : unreferenced local variable
+     1>d:\networkcompare\networkcompare\programfiles\networkcompare\network.cpp(210): warning C4101: 'node2' : unreferenced local variable
+     1>d:\networkcompare\networkcompare\programfiles\networkcompare\network.cpp(263): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\networkcompare\networkcompare\programfiles\networkcompare\network.cpp(349): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\networkcompare\networkcompare\programfiles\networkcompare\network.cpp(413): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\networkcompare\networkcompare\programfiles\networkcompare\network.cpp(419): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\networkcompare\networkcompare\programfiles\networkcompare\network.cpp(516): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Andrew\documents\visual studio 2013\Projects\NetworkCompare\Debug\NetworkCompare.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Andrew\documents\visual studio 2013\Projects\NetworkCompare\Debug\NetworkCompare.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Andrew\documents\visual studio 2013\Projects\NetworkCompare\Debug\NetworkCompare.lib" /MACHINE:X86 Debug\Network.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\NetworkCompare\NetworkCompare\programFiles\Debug\NetworkCompare.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\NetworkCompare\NetworkCompare\programFiles\Debug\NetworkCompare.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\NetworkCompare\NetworkCompare\programFiles\Debug\NetworkCompare.lib" /MACHINE:X86 Debug\Network.obj
          Debug\NetworkCompare.obj
          Debug\Source.obj
-         NetworkCompare.vcxproj -> C:\Users\Andrew\documents\visual studio 2013\Projects\NetworkCompare\Debug\NetworkCompare.exe
-     1>Done Building Project "C:\Users\Andrew\documents\visual studio 2013\Projects\NetworkCompare\NetworkCompare\NetworkCompare.vcxproj" (Build target(s)).
+         NetworkCompare.vcxproj -> D:\NetworkCompare\NetworkCompare\programFiles\Debug\NetworkCompare.exe
+     1>Done Building Project "D:\NetworkCompare\NetworkCompare\programFiles\NetworkCompare\NetworkCompare.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.79
+Time Elapsed 00:00:02.56
